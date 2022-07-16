@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/food-order-app-desi-delishine/static/css/main.44af8d4a.css",
+    "main.js": "/food-order-app-desi-delishine/static/js/main.5e8db370.js",
+    "static/media/cover.jpg": "/food-order-app-desi-delishine/static/media/cover.2b55e28c126249e9315f.jpg",
+    "index.html": "/food-order-app-desi-delishine/index.html",
+    "main.44af8d4a.css.map": "/food-order-app-desi-delishine/static/css/main.44af8d4a.css.map",
+    "main.5e8db370.js.map": "/food-order-app-desi-delishine/static/js/main.5e8db370.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.44af8d4a.css",
+    "static/js/main.5e8db370.js"
+  ]
+}
