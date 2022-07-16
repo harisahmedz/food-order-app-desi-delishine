@@ -1,0 +1,66 @@
+.Container{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+    width: 100%;
+    margin-bottom: 50px;
+    overflow: hidden;
+}
+.btn{
+    background: #ffffff;
+    padding: 10px 40px;
+    font-size: 16px;
+    color: #646464;
+    margin: 0 1px 5px 1px;
+    text-transform: uppercase;
+    display: inline-block;
+    border: 1px solid #bdbdbd;
+    transition: all 0.5s ease-out;
+    text-align: center;
+    line-height: 24px;
+    font-weight: 400;
+    margin: 3px;
+    margin-right: 5px;
+
+}
+.btn:hover{
+    border: 1px solid #e7272d;
+    background: #e7272d;
+    color: #ffffff;
+    transition: all 0.5s ease-out;
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 10px 40px;
+    font-size: 16px;
+}
+.currentBtn{
+    border: 1px solid #e7272d;
+    background: #e7272d;
+    color: #ffffff;
+    transition: all 0.5s ease-out;
+    text-transform: uppercase;
+    display: inline-block;
+}
+
+@media only screen and (max-width: 1250px) {
+    .btn {
+        padding: 7px 30px;
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .btn {
+        padding: 7px 25px;
+        font-size: 13px;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .Container {
+        flex-wrap: wrap;
+    }
+}

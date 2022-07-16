@@ -1,0 +1,91 @@
+.container{
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.formControl {
+  min-height: 10px;
+  padding-right: 15px;
+  padding-left: 1px;
+  color: #474d5d;
+  font-family: "poppins", sans-serif;
+  font-weight: 400;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.formControl label {
+  margin-bottom: 0px;
+  font-size: 0.95em;
+  letter-spacing: -0.5px;
+  text-transform: capitalize;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px rgb(0 0 0 / 4%);
+  font-family: "poppins", sans-serif;
+  display: block;
+}
+.formControl input {
+  background: #ffffff;
+  border: 1px solid #d5d9dc;
+  padding: 13px 10px;
+  border-radius: 3px;
+  margin: 0;
+  min-width: 230px;
+  width: 83%;
+}
+.singleLineInput{
+    width: 100%;
+    float: left;
+    margin-right: 20px;
+    display: block;
+}
+
+.invalid input {
+  border: 1px solid #b40e0e;
+  background-color: #fddddd;
+  margin: 0;
+}
+
+.invalid input:focus {
+  border-color: #ff8800;
+  background-color: #fbe8d2;
+  margin: 0;
+}
+
+.error-text {
+  color: #b40e0e;
+  font-size: 10px;
+}
+.actions {
+  text-align: right;
+
+
+}
+
+.actions button {
+  font: inherit;
+  cursor: pointer;
+  background-color: transparent;
+  border: 1px solid #e7272d;
+  padding: 0.5rem 2rem;
+  border-radius: 15px;
+  margin-left: 1rem;
+  margin-top: 20px;
+}
+
+.actions button:hover,
+.actions button:active {
+  background-color: #e24449;
+  border-color: #c5282d;
+  color: white;
+}
+
+.actions .button--alt {
+  color: #e7272d;
+}
+
+.actions .button {
+  background-color: #e7272d;
+  color: white;
+}

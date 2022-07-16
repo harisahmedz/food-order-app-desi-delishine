@@ -1,0 +1,80 @@
+
+.nav {
+  padding: 20px 0 40px 0;
+  background: #ffffff;
+  margin-right: auto;
+  margin-left: auto;
+  font-size: 16px;
+  
+}
+.logo{
+  margin: 0;
+  padding: 0;
+  font-size: 2em;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-weight: 700;
+  font-family: Poppins, sans-serif;
+  color: rgb(255, 255, 255);
+  margin-bottom:0.8em;
+ 
+}
+.navbarLeft {
+  float: left;
+}
+
+.navbarRight {
+  float: right;
+}
+
+.container ul li {
+  display: inline;
+  padding-left: 20px;
+  cursor: pointer;
+  
+}
+.container ul li i {
+  color: #E7272D;
+  text-decoration: none;
+  font-style: normal;
+  cursor: pointer;
+}
+.container ul li b {
+  color: #646464;
+  font-weight: 500;
+  cursor: pointer;
+}
+.container ul li i:hover {
+  color: black;
+  cursor: pointer;
+}
+
+.container {
+  margin: auto;
+  width: 80%;
+}
+
+.badge {
+  background-color: #E7272D;
+  border-radius: 10px;
+  color: white;
+  display: inline-block;
+  font-size: 13px;
+  line-height: 1;
+  padding: 3px 7px;
+  text-align: center;
+  vertical-align: text-top;
+  white-space: nowrap;
+  
+}
+
+.cart{
+  font-size: 1.3em;
+  font-family: Poppins, sans-serif;
+  font-weight: bold;
+  font-weight: 700;
+  
+}
+.cart:hover{
+  font-size: 1.5em;
+}
